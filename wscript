@@ -8,7 +8,7 @@ def set_options(opt):
 def configure(conf):
   conf.check_tool('compiler_cxx')
   conf.check_tool('node_addon')
-  conf.env['CXX']      = 'g++-4.6'
+  conf.env['CXX']      = 'g++'
   conf.env['CXXFLAGS'] = '-std=c++0x'
   conf.env['LIB']      = ['mecab']
 
